@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Virtual environments and notebooks
+.venv/
+venv/
+.ipynb_checkpoints/
+*.ipynb
+
+# Downloaded graph datasets and generated experiment artifacts
+Data/
+CD_models/NOCD/data/
+CD_models/SEComm/wiki/
+Communities/
+ProcessedFeatures/
+Metrics/
+runs/
+run/
+Saved_Models/
+tests/
+
+# Superseded exploratory scripts retained only in the local archive branch
+CD_models/*\ copy.py
+
+# Local recovery artifacts
+*.bundle
+
